@@ -9,7 +9,7 @@ DEFAULT_HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
 }
-CONTENT_LIMIT = 50000
+CONTENT_LIMIT = 5000000
 NOISE_TAGS = ["script", "style", "img", "input", "noscript", "iframe"]
 
 def scrape_text_content(url: str) -> str:
